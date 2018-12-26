@@ -1,0 +1,20 @@
+{
+  "name": "@matthewp/html-apps",
+  "version": "1.0.0",
+  "description": "Apps in HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewp/html-apps.git"
+  },
+  "keywords": ["web-components"],
+  "author": "Matthew Phillips",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewp/html-apps/issues"
+  },
+  "homepage": "https://github.com/matthewp/html-apps#readme"
+}
