@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/matthewp/html-apps.git"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": ["web-components"],
   "author": "Matthew Phillips",
   "license": "MIT",

@@ -1,7 +1,9 @@
 import customAttributes from 'https://unpkg.com/custom-attributes@1.1.3/index.js';
 
+const isCustomEl = /-/;
+
 function setValue(el, value) {
-  if(el.tagName === 'INPUT') {
+  if(el.tagName === 'INPUT' || isCustomEl.test(el.tagName)) {
     el.value = value;
   } else {
     el.textContent = value;
@@ -27,6 +29,8 @@ const SOURCE = Symbol('data.source');
 function changeEvent(el) {
   if(el.tagName === 'INPUT') {
     return 'keyup';
+  } else {
+    return 'change';
   }
 }
 
